@@ -6,7 +6,7 @@ import random
 
 
 if __name__ == "__main__":
-
+print("hello")
     num = random.randint(1, 10)
     guess = None
     #Exit_program = "exit"
@@ -25,5 +25,5 @@ if __name__ == "__main__":
         elif guess == num:
             print("congratulations! you won!")
             break
-        #elif guess == "exit":
+        elif guess == "exit":
             break
