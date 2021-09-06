@@ -8,8 +8,6 @@ best_score = None
 def guessing_game():
     """this function asks player's name and help them to guess the random number!
     """
-    user_name = input('Hi Buddy, What can I call you? ')
-    first_name_upper = user_name.capitalize()
     print("Nice to meet you "+ first_name_upper)
     print('incase you got tired press 0 to exit the game!')
     num = random.randint(1, 10)
@@ -54,6 +52,14 @@ def Play_again():
         guessing_game()
 
 def adding_results(best_score):
+    """this fuction save the best result of the game at a text file.
+
+    Args:
+        best_score (int): it's the highest sccore of the game.
+
+    Returns:
+        int: updated high score at the text file.
+    """
     with open("scores.txt", "w") as file:
         high_score = file.writelines("best score so far: {} tries".format(best_score))
         return high_score
@@ -61,5 +67,7 @@ def adding_results(best_score):
 
 if __name__ == "__main__":
 
+    user_name = input('Hi Buddy, What can I call you? ')
+    first_name_upper = user_name.capitalize()
     guessing_game()
     adding_results(best_score)
