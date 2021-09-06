@@ -20,8 +20,8 @@ def guessing_game():
         guess = input( "guess a number between 1 and 10: ")
         try:
             guess = int(guess)
-        except:
-            guess = int(input('please write only numbers between 1 and 10:'))
+        except ValueError:
+            guess = int(input('please write only numbers between 1 and 10'))
 
         if 10 > guess > num:
             print('try to guess a lower number')
@@ -51,7 +51,7 @@ def Play_again():
     if play_again.lower() == "y":  
         guessing_game()
 
-def adding_results(best_score):
+def adding_results(best_score : int):
     """this fuction save the best result of the game at a text file.
 
     Args:
