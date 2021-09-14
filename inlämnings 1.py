@@ -2,7 +2,6 @@
 
 
 import random
-from types import resolve_bases
 
 best_score = None
 
