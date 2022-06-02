@@ -1,4 +1,4 @@
-# Inlämning 1
+# My Hello world
 
 ##intro
 # This is a B version of a gussing game program which i created to make players chalenging themselvs for gussing a random number and see how lucky they are!
