@@ -11,7 +11,7 @@ or command prompt
 
 https://www.educative.io/edpresso/how-to-clone-a-git-repository-using-the-command-line
 
-2. write the code below at your command prompt : python main.py
+2.write the code below at your command prompt : python main.py
 
 ## instructions
 when program starts it ask players for their name and gives them some handy instructions such as exit commend.
