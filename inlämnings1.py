@@ -1,8 +1,7 @@
-
-
-
+#Imports
 import random
 
+#global variables
 best_score = None
 
 def guessing_game():
@@ -28,7 +27,7 @@ def guessing_game():
                 print ('try to guess a higher number')
                 tries += 1
                 results.append(guess)
-            elif guess == ' ':
+            elif guess == '':
                 print('please enter only numbers!')    
             elif guess == num:
                 global best_score
