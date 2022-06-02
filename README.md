@@ -6,8 +6,8 @@
 1.clone the repository and either by github desktop 
 
 https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop 
-or 
-command prompt 
+
+or command prompt 
 
 https://www.educative.io/edpresso/how-to-clone-a-git-repository-using-the-command-line /
 
