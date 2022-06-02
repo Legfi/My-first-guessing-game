@@ -1,11 +1,11 @@
 # My Hello world
 
-##intro
+## intro
 # This is a B version of a gussing game program which i created to make players chalenging themselvs for gussing a random number and see how lucky they are!
 ## installation
 1.clone the repository and either by github desktop https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop 
 or 
-command prompt https://www.educative.io/edpresso/how-to-clone-a-git-repository-using-the-command-line
+command prompt https://www.educative.io/edpresso/how-to-clone-a-git-repository-using-the-command-line /
 2. write the code below at your command prompt : python main.py
 ## instructions
 when program starts it ask players for their name and gives them some handy instructions such as exit commend.
