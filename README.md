@@ -9,7 +9,7 @@ https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-d
 
 or command prompt 
 
-https://www.educative.io/edpresso/how-to-clone-a-git-repository-using-the-command-line /
+https://www.educative.io/edpresso/how-to-clone-a-git-repository-using-the-command-line
 
 2. write the code below at your command prompt : python main.py
 
