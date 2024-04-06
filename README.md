@@ -1,7 +1,7 @@
 # My Hello world
 
 ## intro
-# This is a B version of a gussing game program which i created to make players chalenging themselvs for gussing a random number and see how lucky they are!
+# This is a Beta version of a gussing game program which i created to make players chalenging themselvs for gussing a random number and see how lucky they are!
 ## installation
 1.clone the repository and either by github desktop 
 
